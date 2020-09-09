@@ -1,0 +1,12 @@
+@media(max-width: 768px){
+    .historia{
+        margin-top: 50px;
+    }
+}
+
+/* SUPER SMALL */
+@media(max-width: 350px){
+    .btn-noticias{
+        width: auto;
+        padding: 0 10px;
+    }

@@ -26,6 +26,8 @@
 
 body{
     overflow-x: hidden;
+    height: 5000px;
+    
 }
 
 /* NAVBAR */
@@ -54,6 +56,13 @@ body{
     background: var(--vermelho);
     border-radius: 10px;
     color: var(--textbranco);
+}
+.navbar-light .navbar-toggler {
+    height: 50px;
+    border-radius: 10px;
+}
+.navbar-light .navbar-toggler:hover {
+    background: var(--vermelho);
 }
 /* CAROUSEL */
 .carousel img{
@@ -86,26 +95,13 @@ body{
     background: #00bf69;
     color: var(--textbranco);
 }
-@media(max-width: 992px){
-    .historiaitem{
-        margin-top: 100px;
-    }
-    .btn-socio{
-        margin-top: 50px;
-    }
-}
-@media(max-width: 768px){
-    .historia{
-        margin-top: 50px;
-    }
-}
 
-/* NOTICIAS */
+  /* NOTICIAS */
 .noticias{
     background: var(--preto);
     max-width: 1920px ;
     overflow: hidden;
-    padding-bottom: 100px ;
+    padding-bottom: 10px ;
     margin-right: 0px;
 }
 .noticias h2{
@@ -113,7 +109,7 @@ body{
     font-family: SFUI;
     font-weight: bold;
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 3rem 
 }
 .noticias p{
     color: var(--textbranco);
@@ -127,7 +123,7 @@ body{
     padding-bottom: 100px ;
 
 }
-.card{
+.noticias .card{
     margin: 0px -40px;
     padding: 30px 0;
     border: none;
@@ -144,19 +140,19 @@ body{
     padding-bottom: 20px; 
 }
 
-.card:hover {
+.noticias .card:hover {
     transform: scale(1.25);
     transition: 0.4s ease-out;
     z-index: 999;
 }
 
-.card p{
+.noticias .card p{
     color: var(--textpreto);
     margin-top: 10px;
 }
 
 
-.card img{
+.noticias .card img{
     margin-top: -30px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -185,38 +181,12 @@ body{
     outline: 0;
     box-shadow: none;
 }
-@media(max-width: 992px){
-    .gg{
-        margin-top: 0px;
-    }
-    .gg .card{
-        padding-bottom: 50px; 
-    }
-    .gg img{
-        height: auto;
-        width: 100%;
-        border-radius: 10px 10px 0px 0px;
-    }
-    .card {
-        padding-bottom: 50px ;
-        overflow: hidden;
-        margin: 15px auto;
-    }
-    .card img:hover{
-        transform: scale(1.1);
-        transition: 0.5s;
-    }
 
-    .card:hover {
-        transform: none;  
-    }
-}
 /* MODAL NOTÍCIAS */
 .modal-content{
     border-radius: 20px;
 }
 .modal-content img{
-
     width: 100%;
 }
 .btn-fechar{
@@ -228,52 +198,79 @@ body{
 .btn-fechar:hover{
     color: #fff;
 }
-
-
-
-  
-/* .yy {
-    height: 300px;
-    width: 900px;
-    display: flex;
-    margin-top: 200px ;
-    justify-content: center;
+/* LOJA */
+.loja{
+    background: var(--vermelho);
 }
-  
-.card {
-    display: flex;
-    height: 280px;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
-    transition: 0.4s ease-out;
-    position: relative;
-    margin: 0 30px;
+.loja h2{
+    color: var(--textbranco);
+    font-family: SFUI;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
 }
-  
- 
-  .card:hover {
-    transform: scale(1.5);
-    transition: 0.4s ease-out;
-    z-index: 9999;
-  }
-  
-  .card:hover ~ .card {
-    transition: 0.4s ease-out;
-  }
-  
-  .title {
-    color: white;
-    font-weight: 300;
-    position: absolute;
-    left: 20px;
-    top: 15px;
-  }
-  
-  .bar {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    height: 5px;
-    width: 150px;
-  } */
+
+
+/* GALERIA */
+.galeria{
+    background: var(--preto);
+    padding-bottom: 100px ;
+    height: 1400px;
+}
+.galeria h2{
+    color: var(--textbranco);
+    font-family: SFUI;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.galeria p{
+    color: var(--textbranco);
+    font-family: SFUI;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.galeria a{
+    color: #eaeaea;
+    font-family: SFUI;
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.galeria .ativo{
+    color: var(--textbranco);
+    font-weight: bold;
+}
+.galeria .foto{
+    margin-top: 40px;
+
+   
+}
+.galeria .card{
+    border: none;
+    border-radius: 0px;
+}
+.galeria .card img{
+    height: 250px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+.galeria .card h5{
+    color: var(--textpreto);
+    font-family: _bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.galeria .card p{
+    color: #929ba0;
+    font-family: SFUI;
+    font-size: 12px;
+}
+#jogador{
+    display: none;
+}
+
+

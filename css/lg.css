@@ -1,0 +1,42 @@
+@media(max-width: 992px){
+    .historia{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .historiaitem{
+        margin-top: 30px;
+    }
+    .historiaitem h3{
+        margin-top: 30px;
+    }
+    .historiaitem p{
+        margin-top: 10px;
+    }
+    .btn-socio{
+        margin-top: 0px;
+    }
+    .gg{
+        margin-top: 0px;
+    }
+    .gg .card{
+        padding-bottom: 50px; 
+    }
+    .gg img{
+        height: auto;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .noticias .card {
+        padding-bottom: 50px ;
+        overflow: hidden;
+        margin: 15px auto;
+    }
+    .noticias .card img:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .noticias .card:hover {
+        transform: none;  
+    }
+}
