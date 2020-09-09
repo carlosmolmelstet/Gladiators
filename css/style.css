@@ -258,6 +258,7 @@ body{
 }
 .galeria .foto{
     margin-top: 40px;
+    padding-right: 0px;
 }
 .galeria .card{
     border: none;
