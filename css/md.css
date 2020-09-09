@@ -2,6 +2,14 @@
     .historia{
         margin-top: 50px;
     }
+    .container{
+        padding-right: 0px;
+    }
+    .col-lg-4{
+        padding: 0px;
+
+    }
+    
 }
 
 /* SUPER SMALL */
