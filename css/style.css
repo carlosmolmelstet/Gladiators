@@ -33,14 +33,15 @@ body{
     outline: none;
 }
 .mynav{
-    background:var(--preto);
+    background:var(--textbranco);
+    box-shadow: 1px 8px 5px -2px rgba(0,0,0,0.46);
 }
 .menulist{
     display: flex;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color: var(--textbranco);
+    color: var(--textpreto);
     padding: 10px 20px;
     margin: 0 5px;
     font-family: _heavy;
