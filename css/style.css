@@ -215,7 +215,6 @@ body{
 .galeria{
     background: var(--preto);
     padding-bottom: 100px ;
-    height: 1400px;
 }
 .galeria h2{
     color: var(--textbranco);
@@ -240,14 +239,21 @@ body{
     text-transform: uppercase;
     text-decoration: none;
 }
-.galeria .ativo{
+.galeria a:hover{
+    color: #eaeaea;
+    font-family: SFUI;
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.galeria .selecionado{
     color: var(--textbranco);
     font-weight: bold;
 }
 .galeria .foto{
     margin-top: 40px;
-
-   
 }
 .galeria .card{
     border: none;
@@ -269,8 +275,24 @@ body{
     font-family: SFUI;
     font-size: 12px;
 }
-#jogador{
-    display: none;
+.ativo{
+
+}
+.desativo{
+  display: none;
+}
+.esconder{
+  display: none;
 }
 
 
+.fa-angle-down{
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.fa-angle-up{
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
