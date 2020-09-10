@@ -25,10 +25,19 @@
 }
 
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     height: 5000px;
     
 }
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 
 /* NAVBAR */
 .navbar-toggler:focus{
@@ -218,6 +227,8 @@ body{
 .galeria{
     background: var(--preto);
     margin-right: 0px;
+    overflow: hidden;
+    width: 100vw + 15px;
 
 }
 .galeria h2{

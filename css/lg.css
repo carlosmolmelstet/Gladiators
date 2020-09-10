@@ -50,4 +50,27 @@
     .vermais-socio .modelo{
         display: none;
     }
+    .card{
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        width: 90%;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        margin-left: 5%;
+    }
+    .galeria-desgricao {
+        width: 10px;
+        padding-right: 0px;
+        }
+        
+        .galeria-desgricao p{
+            padding-right: 15px;
+        }
 }
