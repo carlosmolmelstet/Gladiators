@@ -14,6 +14,8 @@
     }
     .btn-socio{
         margin-top: 0px;
+        margin-left: 5%;
+
     }
     .gg{
         margin-top: 0px;
@@ -38,5 +40,14 @@
 
     .noticias .card:hover {
         transform: none;  
+    }
+    .socio .socio-descricao {
+        margin-left: 5%;
+    }
+    .socio .socio-descricao  {
+        text-align: center;
+    }
+    .vermais-socio .modelo{
+        display: none;
     }
 }

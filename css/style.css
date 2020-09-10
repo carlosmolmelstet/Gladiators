@@ -170,7 +170,8 @@ body{
     background: var(--verde);
     color: #ffffff;
     width: 250px;
-    border-radius: 15px;
+    border-radius: 15px; 
+    text-transform: uppercase;
 }
 .btn-noticias:hover{
     background: #00bf69;
@@ -216,7 +217,6 @@ body{
 /* GALERIA */
 .galeria{
     background: var(--preto);
-    padding-bottom: 100px ;
     margin-right: 0px;
 
 }
@@ -289,8 +289,6 @@ body{
 .esconder{
   display: none;
 }
-
-
 .fa-angle-down{
     font-size: 50px;
     color: white;
@@ -300,4 +298,75 @@ body{
     font-size: 50px;
     color: white;
     cursor: pointer;
+}
+/* LITTLE GLADS */
+.little .card{
+    margin-top: 30px;
+}
+.little h2{
+    color: var(--preto);
+    font-family: SFUI;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.little .little-descricao{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    color: var(--preto);
+    font-family: SFUI;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.little .card-body{
+    background: var(--preto);
+}
+.little .card-body h5{
+    color: var(--textbranco);
+}
+.little .card-body p{
+    color: var(--textbranco);
+    font-size: 10px;
+}
+/* SOCIO TORCEDOR */
+
+.socio .video{
+    background: black;
+    height: 250px;
+    width: 80%;
+    margin-left: 10%;
+}
+.socio .socio-descricao {
+    width: 90%;
+}
+.socio .socio-descricao h3{
+    font-family: _bold;
+    font-family: SFUI;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase
+}
+.socio .socio-descricao p{
+    color: var(--preto);
+    font-family: SFUI;
+    font-size: 10px;
+    text-transform: uppercase
+}
+.vermais-socio{
+    background: var(--preto);
+    height: 300px;
+}
+.vermais-socio img{
+    margin-top: -45px;
+}
+.vermais-socio p{
+    color: var(--textbranco);
+    font-family: SFUI;
+    font-size: 25px;
+    text-transform: uppercase
+}
+.hh{
+    margin-top: 60px;
 }
