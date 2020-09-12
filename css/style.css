@@ -381,3 +381,59 @@ body{
 .hh{
     margin-top: 60px;
 }
+/* PATROCINADORES */
+.patrocinadores h2{
+    color: var(--preto);
+    font-family: SFUI;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.patrocinadores .card-body{
+    color: var(--textbranco);
+    background-color: var(--preto);
+}
+.patrocinadores .card-body h4{
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.patrocinadores .card-body p{
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+/* SEJA UM PATROCINADOR */
+.seja-patrocinador {
+    background-color: var(--vermelho);
+    color: var(--textbranco);
+}
+.seja-patrocinador h2{
+    font-family: SFUI;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.patrocinadores .card-body{
+    color: var(--textbranco);
+    background-color: var(--preto);
+}
+.patrocinadores .card-body h4{
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.patrocinadores .card-body p{
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+/* REDES SOCIAIS */
+.redes-sociais h3{
+    color: var(--preto);
+    font-family: SFUI;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
