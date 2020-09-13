@@ -1,0 +1,39 @@
+/* FONTS */
+@font-face {
+    font-family:  SFUI ;
+     src: url('../fonts/SFUIText-Regular.ttf');
+}
+@font-face {
+    font-family:  _heavy ;
+     src: url('../fonts/SFUIText-Heavy.ttf');
+}
+body{
+    background-color: black;
+    
+}
+.container{
+    margin-top: 40vh;
+}
+.container h1{
+    color: #fff;
+    font-family:  _heavy ;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .btn-home{
+    color: #fff;
+    font-family:  _heavy ;
+    text-transform: uppercase;
+    background-color: #4ad295;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.container .btn-home:hover{
+    background-color: #3ca878;
+    cursor: pointer;
+}

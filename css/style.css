@@ -26,8 +26,7 @@
 
 body{
     /* overflow-x: hidden; */
-    height: 5000px;
-    
+   
 }
 .row {
     display: -ms-flexbox;
@@ -413,6 +412,7 @@ body{
     font-size: 10px;
     text-transform: uppercase;
 }
+
 .patrocinadores .card-body{
     color: var(--textbranco);
     background-color: var(--preto);
@@ -428,6 +428,9 @@ body{
 
 }
 /* REDES SOCIAIS */
+.redes-sociais img{
+    max-width: 100%;
+}
 .redes-sociais h3{
     color: var(--preto);
     font-family: SFUI;
@@ -436,4 +439,97 @@ body{
     text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+.redes-sociais button{
+    border: none;
+    border-radius: 20px;
+    color: var(--textbranco);
+    font-size: 25px;
+    height: 50px;
+    width: 100%;
+}
+.redes-sociais .btn-insta{
+    background: linear-gradient(30deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+.redes-sociais .btn-face{
+    background: #3a5793;
+}
+/* CONTATOS */
+.contatos{
+    background-color: var(--vermelho);
+    color: var(--textbranco);
+    font-family: SFUI;
+}
+.contatos h3{
+    color: var(--textbranco);
+    font-family: SFUI;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+}
+.contatos p{
+    color: var(--textbranco);
+    font-family: SFUI;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.contatos .input-pequeno .col-md-6{
+    padding: 0px;
+}
+.contatos .input-pequeno input{
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    padding-left: 10px;
+    color: #fff;
+}
+.contatos .input-pequeno input::placeholder{
+    color: #fff;
+}
+
+.contatos .input-pequeno .col-md-6:first-child{
+    padding-right: 10px;
+}
+.contatos .input-pequeno input{
+    width: 100%; 
+    height: 50px;
+}
+.contatos .input-grande input{
+    width: 100%; 
+    height: 100px;
+    margin-top: 50px;
+}
+.contatos .input-grande input{
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    padding-top: -100px;
+    padding-left: 10px;
+    color: #fff;
+}
+.contatos .input-grande input::placeholder{
+    color: #fff;
+}
+
+.contatos .btn-contato input{
+    float: right;
+    background-color: var(--preto);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: SFUI;
+    padding: 5px 30px;
+}
+.contatos input:focus{
+    outline: none;
+}
+/* FOOTER */
+footer{
+    background-color: #233537;
+    color: #fff;
+    height: 80px;
+}
+footer p {
+   padding-top: 30px;
+}
+footer p span{
+    color: var(--verde);
 }

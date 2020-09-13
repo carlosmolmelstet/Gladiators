@@ -25,6 +25,15 @@
         text-transform: uppercase;
         width: 90%;
     }
+    .patrocinadores h2 {
+        
+        font-size: 25px;
+        
+    }
+    .contatos .input-pequeno .col-md-6:first-child{
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
    
    
     
