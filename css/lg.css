@@ -82,5 +82,8 @@
     
         margin-top: 10px;
     }
+    .esconder-mobile{
+        display: none;
+    }
   
 }

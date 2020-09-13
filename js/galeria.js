@@ -64,11 +64,13 @@ $(function () {
 $(function () {
     $('.vm1').click(function () {
         $('.vm').removeClass('esconder');
+        $('.vm').removeClass('esconder-mobile');
         $('.vm1').addClass('esconder');
         $('.vm2').removeClass('esconder');
     })
     $('.vm2').click(function () {
         $('.vm').addClass('esconder');
+        $('.vm').addClass('esconder-mobile');
         $('.vm2').addClass('esconder');
         $('.vm1').removeClass('esconder');
     })
