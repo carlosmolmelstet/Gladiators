@@ -299,7 +299,17 @@ body{
 .esconder{
   display: none;
 }
-
+.ii{
+    background-color: red;
+    padding: 30px 400px;
+    color: seagreen;
+    border-radius: 40px;
+}
+.ii:hover{
+    background-color: pink;
+    padding: 50px 500px;
+    color: white;
+}
 .fa-angle-down{
     font-size: 50px;
     color: white;
