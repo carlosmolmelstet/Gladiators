@@ -19,9 +19,10 @@
 :root {
     --vermelho: #c4212f;
     --preto:  #262626;
-    --verde: #4ad295;  
+    --verde: #4ad295;
     --textpreto: #3f4244;
     --textbranco: #ffffff;
+    --chernobyl: #7159c1;
 }
 
 body{
@@ -340,6 +341,9 @@ body{
     font-family: SFUI;
     font-size: 15px;
     text-transform: uppercase;
+}
+.little .card{
+    width: 100%;
 }
 .little .card-body{
     background: var(--preto);
