@@ -84,7 +84,7 @@ body{
 .historia{
     margin: 80px 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .historia p{
     margin-top: 30px;
@@ -347,6 +347,16 @@ body{
 }
 .little .card-body{
     background: var(--preto);
+    height: 200px;
+    overflow: auto;
+}
+.little .card-body::-webkit-scrollbar {
+    width: 3px;
+}
+  
+.little .card-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(104, 104, 104); 
 }
 .little .card-body h5{
     color: var(--textbranco);
