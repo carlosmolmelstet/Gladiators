@@ -50,8 +50,16 @@
 }
 
 /* SUPER SMALL */
+@media(max-width: 500px){
+    .socio .video{
+    display: none;
+}
+}
+
+/* SUPER SMALL */
 @media(max-width: 350px){
     .btn-noticias{
         width: auto;
         padding: 5px 30px;
     }
+}

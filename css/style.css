@@ -25,10 +25,19 @@
     --chernobyl: #7159c1;
 }
 
-body{
-    /* overflow-x: hidden; */
-   
+body::-webkit-scrollbar {
+    width: 6px;
+    background: #3e3e3e; 
+
 }
+  
+body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--vermelho); 
+}
+
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -56,7 +65,6 @@ body{
     padding: 10px 20px;
     margin: 0 5px;
     font-family: _heavy;
-    text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
 
@@ -96,7 +104,6 @@ body{
 
     font-family: _bold;
     color: var(--textbranco);
-    text-transform: uppercase;
     
 
 }
@@ -180,7 +187,6 @@ body{
     color: #ffffff;
     width: 250px;
     border-radius: 15px; 
-    text-transform: uppercase;
 }
 .btn-noticias:hover{
     background: #00bf69;
@@ -219,7 +225,6 @@ body{
     font-family: SFUI;
     font-weight: bold;
     font-size: 30px;
-    text-transform: uppercase;
 }
 
 
@@ -236,14 +241,12 @@ body{
     font-family: SFUI;
     font-weight: bold;
     font-size: 40px;
-    text-transform: uppercase;
 }
 
 .galeria p{
     color: var(--textbranco);
     font-family: SFUI;
     font-size: 12px;
-    text-transform: uppercase;
 }
 
 .galeria a{
@@ -251,7 +254,6 @@ body{
     font-family: SFUI;
     padding: 0 10px;
     font-size: 20px;
-    text-transform: uppercase;
     text-decoration: none;
 }
 .galeria a:hover{
@@ -259,7 +261,6 @@ body{
     font-family: SFUI;
     padding: 0 10px;
     font-size: 20px;
-    text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
 }
@@ -284,7 +285,6 @@ body{
     color: var(--textpreto);
     font-family: _bold;
     font-size: 20px;
-    text-transform: uppercase;
 }
 .galeria .card p{
     color: #929ba0;
@@ -330,7 +330,6 @@ body{
     font-family: SFUI;
     font-weight: bold;
     font-size: 40px;
-    text-transform: uppercase;
 }
 .little .little-descricao{
     width: 80%;
@@ -340,7 +339,6 @@ body{
     color: var(--preto);
     font-family: SFUI;
     font-size: 15px;
-    text-transform: uppercase;
 }
 .little .card{
     width: 100%;
@@ -368,10 +366,7 @@ body{
 /* SOCIO TORCEDOR */
 
 .socio .video{
-    background: black;
-    height: 250px;
-    width: 80%;
-    margin-left: 10%;
+    text-align: center;
 }
 .socio .socio-descricao {
     width: 90%;
@@ -386,8 +381,7 @@ body{
 .socio .socio-descricao p{
     color: var(--preto);
     font-family: SFUI;
-    font-size: 10px;
-    text-transform: uppercase
+    font-size: 16px;
 }
 .vermais-socio{
     background: var(--preto);
@@ -400,7 +394,6 @@ body{
     color: var(--textbranco);
     font-family: SFUI;
     font-size: 25px;
-    text-transform: uppercase
 }
 .hh{
     margin-top: 60px;
@@ -411,7 +404,6 @@ body{
     font-family: SFUI;
     font-size: 35px;
     font-weight: bold;
-    text-transform: uppercase;
 }
 .patrocinadores .card-body{
     color: var(--textbranco);
@@ -419,12 +411,10 @@ body{
 }
 .patrocinadores .card-body h4{
     font-size: 15px;
-    text-transform: uppercase;
 
 }
 .patrocinadores .card-body p{
     font-size: 10px;
-    text-transform: uppercase;
 
 }
 /* SEJA UM PATROCINADOR */
@@ -434,8 +424,7 @@ body{
 }
 .seja-patrocinador h2{
     font-family: SFUI;
-    font-size: 10px;
-    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .patrocinadores .card-body{
@@ -444,12 +433,10 @@ body{
 }
 .patrocinadores .card-body h4{
     font-size: 15px;
-    text-transform: uppercase;
 
 }
 .patrocinadores .card-body p{
     font-size: 10px;
-    text-transform: uppercase;
 
 }
 /* REDES SOCIAIS */
@@ -461,7 +448,6 @@ body{
     font-family: SFUI;
     font-size: 25px;
     font-weight: bold;
-    text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -488,15 +474,14 @@ body{
 .contatos h3{
     color: var(--textbranco);
     font-family: SFUI;
-    text-transform: uppercase;
     font-size: 35px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .contatos p{
     color: var(--textbranco);
     font-family: SFUI;
-    text-transform: uppercase;
-    font-size: 10px;
+    font-size: 14px;
 }
 .contatos .input-pequeno .col-md-6{
     padding: 0px;
@@ -539,7 +524,6 @@ body{
     background-color: var(--preto);
     border: none;
     color: #fff;
-    text-transform: uppercase;
     font-family: SFUI;
     padding: 5px 30px;
 }
